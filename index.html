@@ -54,7 +54,7 @@
                         Hello Everyone!
 
                         <ul>
-                            <li>The goal of this presentation is to demonstrate how to build an End to End Web Application with Angular JS using a REST based Service as the backend <li>
+                            <li>The goal of this presentation is to show how to build a  Web Application with Angular JS using a REST based Service as the backend <li>
                            
                             <li> Lets take a look at the agenda for this presentation.</li>
                         </ul>
@@ -77,7 +77,7 @@
                                 <li>Angular Basics</li>
                             </ul></li>
  
-                        <li>Walkthrough an End to End Angular App</li>
+                        <li>Walkthrough a  Angular App</li>
                             <ul>
                                 <li>Setup</li>
                                 <li>Architecture</li>
@@ -95,7 +95,7 @@
                             <li>First we'll do a quick 5 min review introduction to AngularJS. We'll look at Two-way data binding, $scope, controllers and services in Angular.
                             </li>
                             <li>
-                                Then we will do a walkthrough of an End to End Web application built with a RestFul Webservice consumed by an Angular Client. I originally planned to do live coding session but I soon realized that it can't be done in an hour. So I'll instead do my best to review Angular with this application.
+                                Then we will do a walkthrough of a  Web application built with a RestFul Webservice consumed by an Angular Client. I originally planned to do live coding session but I soon realized that it can't be done in an hour. So I'll instead do my best to demonstrage AngularJS capabilities with this application.
 
                             <!--<li>We'll also explore various options available for debugging, packaging, dependency management and deployment.-->
 
@@ -128,11 +128,10 @@
                             <li>AngularJS is a structural meta framework for developing modern dynamic web apps</li>
                             <li>Angular is what HTML would have been had it been designed for  web applications.</li>
 
-                            <li>It provides an End to End solution for development. 
+                            <li>It provides a  solution for development. 
                                 <ul>
-                                    <li>It is a Meta Framework</li>
                                     <ul>
-                                        <li>What I mean by "meta" is that it gives a lot of room for developers to expand on its existing functionality. We'll talk about it a bit later</li>
+                                        <li>It is a Meta Frameworkin the sense that it gives a lot of room for developers to expand on its existing functionality.</li>
                                     </ul>
                                     <li>It Works well with other js libraries nicely including JQuery (If we need to)</li>
 
@@ -229,35 +228,22 @@
                     </section>
 
                 </section>
-              
-                    <section>
+              <section>
 
-                    <h4>Walkthrough an End to End Web App with Angular</h4>
+                    <h4>Walkthrough a Web App with Angular</h4>
                     <ul>
-                        <li>Setup
+                        <li>Brief introduction to the example Application
                             <ul>
-                                <li>Frontend - Angular JS, Bootstrap, Angular Strap</li>
-                                <li>Backend - Java EE, Spring MVC REST, JPA with Hibernate</li>
-                                <li>Database - MySQL</li>
-                                <li>Application Server - Tomcat (Neutral)</li>
+                                <li>A simple CRUD app</li>
+                                <li>Business use - Bill splitting between friends</li>
+                                <li>Project goal - Promote Community Learning (Open Source)</li>
+                        
                             </ul></li>
- 
-<!--                        <li>Walkthrough an End to End Angular App</li>
-                            <ul>
-                                <li>Setup</li>
-                                <li>Architecture</li>
-                                <li>Workflow</li>
-                                <li>Debugging</li>  
-                            </ul>
-                        <li>Best Practices</li>
-                        <li>Resources</li>
-                        <li>Q&A</li>-->
-
                     </ul>
 
                     <aside class="notes">
                         <ul>
-                            <li>First we'll do a quick 5 min review introduction to AngularJS. We'll look at Two-way data binding, $scope, controllers and services in Angular.
+                            <li>The application that we are going to go through is a basic CRUD application. It's called Billrive. It is an open source project. The goal of this project is to promote community learning. This application is bascially a testbed for trying out new things. The link to it's GIT repository will be provided at the end. Please feel free to fork.
                             </li>
                             
 
@@ -265,7 +251,63 @@
 
                     </aside>
 
-                </section>           
+                </section>
+                    <section>
+
+                    <h4>Walkthrough a Web App with Angular</h4>
+                    <ul>
+                        <li>Setup
+                            <ul>
+                                <li>Frontend - Angular JS, Bootstrap CSS, Angular Strap</li>
+                                <li>Backend - Java EE, Spring MVC REST, JPA with Hibernate</li>
+                                <li>Database - MySQL</li>
+                                <li>Application Server - Tomcat (Neutral)</li>
+                            </ul></li>
+
+                    </ul>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>Now let's take a look at it's setup. The application is comprised of two parts. A Backend REST service and an AngularJS client. The frontend is primarily built upon Angular JS, Bootstrap CSS and Angular Strap.
+                            <li>The backend is a Java EE application built using Spring. The persistence layer is built upon JPA with Hibernate as its provider.
+                            </li>
+                            <li>MySQL is the persistence store. Although the application can use any RDBMS data provider</li>
+                            <li>The default Application server for the service is Tomcat although any Java Web container will do fine.</li>
+                            
+
+                        </ul>
+
+                    </aside>
+
+                </section>
+                            
+                            
+                             
+                            
+                            <section>
+
+                    <h4>Walkthrough a Web App with Angular</h4>
+                    <ul>
+                        <li>Design & Arch
+                            <ul>
+                                <li>Frontend -  MVC</li>
+                                <li>Backend -  MVC</li>
+                                <li>Interface - REST</li>
+                                <li>Data Transfer - JSON</li>
+                            </ul></li>
+                    </ul>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>Now about the basic architecture of the whole application, Both the frontend and the backend are basically built using the MVC pattern. The backend is a RESTful webservice built using Spring MVC. Data interchange between the service and the client is strictly done through JSON.
+                            </li>
+                            
+
+                        </ul>
+
+                    </aside>
+
+                </section>
 				<section>
 					<h1>Reveal.js</h1>
 					<h3>HTML Presentations Made Easy</h3>
